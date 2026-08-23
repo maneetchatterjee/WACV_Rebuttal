@@ -1,2 +1,14 @@
 *.pth filter=lfs diff=lfs merge=lfs -text
 PIPNet_DINO_CUB/runs/**/checkpoints/net_trained_last/** filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_aid_dino_vitb16_224/checkpoints/net_trained_last/* filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_car_dino_vitb16_224/checkpoints/net_trained_last/* filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_colon_dino_vitb16_224_ep30/checkpoints/net_trained_last/* filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_cub_dino_vitb16_224/checkpoints/net_trained_last/* filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_flower_dino_vitb16_224/checkpoints/net_trained_last/* filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_gbcu_dino_vitb16_224/checkpoints/net_trained_last/* filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_colon_dino_vitb16_224_ep30/checkpoints/net_trained_last filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_cub_dino_vitb16_224/checkpoints/net_trained_last filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_gbcu_dino_vitb16_224/checkpoints/net_trained_last filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_aid_dino_vitb16_224/checkpoints/net_trained_last filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_car_dino_vitb16_224/checkpoints/net_trained_last filter=lfs diff=lfs merge=lfs -text
+PIPNet_DINO_CUB/runs/pipnet_flower_dino_vitb16_224/checkpoints/net_trained_last filter=lfs diff=lfs merge=lfs -text
